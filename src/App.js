@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import { Grid, Box, Typography, Link } from '@material-ui/core';
+import LanguageTwoToneIcon from '@material-ui/icons/LanguageTwoTone';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import { CustomTabs, MapInfo } from './Components';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+	render() {
+		return (
+			<Grid container spacing={2}>
+				<Grid item xs={12} md={3} lg>
+					<Box p={2}>
+						<Typography variant="h2" fontWeight="fontWeightBold">
+							<LanguageTwoToneIcon style={{ fontSize: 40 }} />
+							COVID-19 WorldWide
+						</Typography>
+						<br />
+						<br />
+						<Link href="http://github.com/ismalex">
+							<div style={{ display: 'flex' }}> 
+								<GitHubIcon style={{ fontSize: 20 }} />/ismalex
+							</div>
+						</Link>
+						<CustomTabs />
+					</Box>
+				</Grid>
+				<Grid item xs={12} md={9} lg={9} style={{ overflow: 'none',}}>
+					<MapInfo />
+				</Grid>
+			</Grid>
+		);
+	}
 }
-
-export default App;
