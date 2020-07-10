@@ -1,68 +1,62 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [COVID-World Wide](https://world19covid.web.app/)
 
-## Available Scripts
+This tracker aims to show the numbers & trends of people affected, recovered and deceased due to COVID-19
 
-In the project directory, you can run:
+[![licence](https://img.shields.io/github/license/sabesansathananthan/covid-19-tracker)](https://github.com/sabesansathananthan/covid-19-tracker/blob/master/LICENSE)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/sabesansathananthan/covid-19-tracker)](https://github.com/sabesansathananthan/covid-19-tracker)
+[![GitHub repo size](https://img.shields.io/github/repo-size/sabesansathananthan/covid-19-tracker?color=ff69b4)](https://github.com/sabesansathananthan/covid-19-tracker)
+[![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FTheSabesan)](https://twitter.com/intent/tweet?text=Wow,%20I%20used%20covid-19-tracker.%20That%20is%20excellent.%20Thank%20you%20@TheSabesan)
 
-### `npm start`
+## Technologies used 🛠️
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://es.reactjs.org/) - Front-End JavaScript library
+- [Material UI](https://material-ui.com/) - React UI Framework
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client
+- [React CountUp](https://react-countup.now.sh/) - React component wrapper around CountUp.js
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Prerequisites 📋
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+node@v10.16.0 or higher
+npm@6.9.0 or higher
+git@2.17.1 or higher
+```
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Development
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+To setup the app for development on your local machine, please follow the instructions below:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repo to your machine
 
-### `npm run eject`
+```bash
+git clone https://github.com/sabesansathananthan/covid-19-tracker.git
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install necessary packages
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Start the development environment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+4. In your browser, visit http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Data Source
 
-### Code Splitting
+[Mathroid](https://covid19.mathdro.id/api/)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## License 📄
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
