@@ -9,10 +9,10 @@ World Map showing the numbers & trends of people affected, recovered and decease
 
 ## Technologies used 🛠️
 
-- [React](https://es.reactjs.org/) - Front-End JavaScript library
-- [Material UI](https://material-ui.com/) - React UI Framework
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client
-- [React CountUp](https://react-countup.now.sh/) - React component wrapper around CountUp.js
+- [React](https://es.reactjs.org/) - Front-End JavaScript library.
+- [Material UI](https://material-ui.com/) - React UI Framework.
+- [Axios](https://github.com/axios/axios) - Promise based HTTP client.
+- [React CountUp](https://react-countup.now.sh/) - React component wrapper around CountUp.js.
 
 
 ## Prerequisites 📋
@@ -25,14 +25,14 @@ git@2.17.1 or higher
 
 ---
 
-## Development
+## Development 💻
 
 To setup the app for development on your local machine, please follow the instructions below:
 
 1. Clone the repo to your machine
 
 ```bash
-git clone https://github.com/sabesansathananthan/covid-19-tracker.git
+git clone https://github.com/ismalex/COVID-Worldwide/covid-19-tracker.git
 ```
 
 2. Install necessary packages
@@ -51,7 +51,7 @@ npm start
 
 ---
 
-## Data Source
+## Data Source 🚑
 
 [Mathroid API](https://covid19.mathdro.id/api/)
 
