@@ -2,7 +2,7 @@
 
 World Map showing the numbers & trends of people affected, recovered and deceased due to the new Coronavirus COVID-19.
 
-[![licence](https://img.shields.io/github/license/ismalex/COVID-Worldwide)](https://github.com/sabesansathananthan/covid-19-tracker/blob/master/LICENSE)
+[![licence](https://img.shields.io/github/license/ismalex/COVID-Worldwide)](https://github.com/ismalex/COVID-Worldwide/blob/master/LICENSE)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/ismalex/COVID-Worldwide)](https://github.com/ismalex/COVID-Worldwide)
 [![GitHub repo size](https://img.shields.io/github/repo-size/sabesansathananthan/covid-19-tracker?color=ff69b4)](https://github.com/ismalex/COVID-Worldwide)
 
